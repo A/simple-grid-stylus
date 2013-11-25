@@ -17,9 +17,6 @@ make-grid-columns(columns, column_width, suffix='')
 
   column_width = unit(column_width, px)
 
-  .clearfix
-    clearfix()
-
   .row 
     margin-left 0
     clearfix()
@@ -28,17 +25,6 @@ make-grid-columns(columns, column_width, suffix='')
     float left
     min-height 1px
     margin-left 0
-
-  [class*="span"].hide 
-    display none
-  [class*="span"].pull-right
-    float right
-
-  .container,
-  .navbar-static-top .container,
-  .navbar-fixed-top .container,
-  .navbar-fixed-bottom .container 
-    width columns*column_width
 
   for n in 0..columns
     .span{suffix}{n}

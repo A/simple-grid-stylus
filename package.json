@@ -1,0 +1,15 @@
+{
+  "name": "simple-grid-stylys",
+  "description": "Simple fixed customizable grid inspired bootstrap",
+  "version": "0.1.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shuvalov-anton/simple-grid-stylus.git"
+  },
+  "dependencies": {
+    "stylus": "*"
+  },
+  "author": "Anton Shuvalov <anton_shuvalov@me.com>",
+  "main": "lib/simple-grid.js"
+}

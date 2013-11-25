@@ -10,6 +10,10 @@
   "dependencies": {
     "stylus": "*"
   },
-  "author": "Anton Shuvalov <anton_shuvalov@me.com>",
-  "main": "lib/simple-grid.js"
+  "author": {
+    "name": "Anton Shuvalov <anton_shuvalov@me.com>",
+    "url": "http://anton-shuvalov.info"
+  },
+  "main": "lib/simple-grid.js",
+  "keywords": ["stylus", "grid"]
 }

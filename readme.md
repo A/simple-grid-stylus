@@ -4,7 +4,7 @@
 Simple fixed customizable grid inspired bootstrap
 
 
-# Syntax 
+# Syntax
 
     make-grid-columns(columns, column-width, [column-name_suffix])
 
